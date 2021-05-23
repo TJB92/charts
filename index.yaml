@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   example-service:
   - apiVersion: v2
+    appVersion: 0.1.30
+    created: "2021-05-23T18:02:58.537063961Z"
+    description: A helm chart for deploying a simple go application for demo purposes
+    digest: 3eb978215c66a83f0c09e430b07cefc0f982b716349e7e8b349ae4e879ad5ab1
+    name: example-service
+    type: application
+    urls:
+    - https://tjb92.github.io/charts/example-service-0.1.30.tgz
+    version: 0.1.30
+  - apiVersion: v2
     appVersion: 0.1.29
     created: "2021-05-23T17:39:04.825176402Z"
     description: A helm chart for deploying a simple go application for demo purposes
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://tjb92.github.io/charts/example-service-0.1.0.tgz
     version: 0.1.0
-generated: "2021-05-23T17:39:04.824452794Z"
+generated: "2021-05-23T18:02:58.536292741Z"
